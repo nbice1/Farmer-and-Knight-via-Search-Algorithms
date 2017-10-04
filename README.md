@@ -1,7 +1,7 @@
 # Farmer-and-Knight-via-Search-Algorithms
 Here we use a breadth-first search algorithm with dynamic programming to solve the infamous farmer-goat-wolf-cabbage problem and to determine the shortest path a knight can take from the bottom-left position on a chessboard to the top-right position. 
 
-To compute the solutions, run the program and print (farmer) or print (knight). The solutions are represented as a list of ordered pairs containing the previous action and resulting state. 
+To compute the solutions, run the program and print (farmer_goat) or print (knight). The solutions are represented as a list of ordered pairs containing the previous action and resulting state. 
 
 In the case of the farmer, the state is a four-tuple containing the locations of the farmer, goat, wolf, and cabbage, respectively, where those locations can be 'L' or 'R' (for left side and right side of the river, respectively). So, the starting position is ('L', 'L', 'L', 'L'). The actions correspond to the object taken by the farmer from his current position to the opposite position (e.g. 'takeGoat'). 
 
